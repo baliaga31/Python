@@ -1,0 +1,5 @@
+Site web: https://python.developpez.com/cours/apprendre-python-3/?page=exercices-corriges#L14-2-1
+
+Enoncé: 
+
+Une boucle while : entrez un prix HT (entrez o pour terminer) et affichez sa valeur TTC.

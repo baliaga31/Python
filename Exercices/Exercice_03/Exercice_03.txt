@@ -1,0 +1,3 @@
+Une autre boucle while : calculez la somme d'une suite de nombres positifs ou nuls. Comptez combien il y avait de données et combien étaient supérieures à 100.
+
+Entrer un nombre inférieur ou égal à 0 indique la fin de la suite.
