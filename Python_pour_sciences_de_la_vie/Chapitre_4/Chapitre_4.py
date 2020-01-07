@@ -22,3 +22,8 @@ print(saisons[2])
 print(saisons[1][0])
 print(saisons[1:2])
 print(saisons[:][1])
+
+# Exercice 4.3: Table de multiplication par 9
+
+table = list(range(0,91, 9))
+print(table)
