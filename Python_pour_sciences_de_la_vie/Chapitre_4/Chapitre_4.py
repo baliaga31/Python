@@ -27,3 +27,8 @@ print(saisons[:][1])
 
 table = list(range(0,91, 9))
 print(table)
+
+# Exercice 4.4: Nombres pairs
+
+Pair = len(range(2, 10001, 2))
+print(Pair)
