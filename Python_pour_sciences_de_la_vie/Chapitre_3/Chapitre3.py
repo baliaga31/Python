@@ -19,3 +19,12 @@ b = 102
 c = 10.318
 
 print("{:s}, {:d}, {:.2f}".format(a, b, c))
+
+# Exercice 3.5: Ecriture formatee 2
+
+perc_GC = ((4500 + 2575)/14800)*100
+
+print("Le pourcentage de GC est {:<6.0f} %".format(perc_GC))
+print("Le pourcentage de GC est {:<6.1f} %".format(perc_GC))
+print("Le pourcentage de GC est {:<6.2f} %".format(perc_GC))
+print("Le pourcentage de GC est {:<6.3f} %".format(perc_GC))
