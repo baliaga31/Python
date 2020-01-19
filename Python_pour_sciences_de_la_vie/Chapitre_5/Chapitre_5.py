@@ -71,3 +71,13 @@ for y in notes:
 
 moyenne = somme/len(notes)
 print("Cet etudiant a une moyenne de {:.2f}.".format(moyenne))
+
+# Exercice 5.6: Produit de nombres consecutifs
+
+num_pairs = list(range(2,21,2))
+print(num_pairs) 
+
+for i in range(len(num_pairs)-1):
+    print(i)
+    results = num_pairs[i] * num_pairs[i+1]
+    print(results)
