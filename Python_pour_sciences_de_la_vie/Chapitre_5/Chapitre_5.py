@@ -81,3 +81,21 @@ for i in range(len(num_pairs)-1):
     print(i)
     results = num_pairs[i] * num_pairs[i+1]
     print(results)
+
+# Exercice 5.7: Triangle
+
+for n in range(1, 11):
+    print("*" * n)
+
+# Exercice 5.8: Triangle inverse ]
+
+print("Exercice 5.8")
+
+for n in range(10, 0, -1):
+    print("*" * n)
+
+# Exercicee 5.9: Pyramide
+
+for n in range(10):
+    print("{:^19s}".format("*" * ((2*n)+1)))
+
