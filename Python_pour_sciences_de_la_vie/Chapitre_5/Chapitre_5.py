@@ -94,8 +94,21 @@ print("Exercice 5.8")
 for n in range(10, 0, -1):
     print("*" * n)
 
-# Exercicee 5.9: Pyramide
+# Exercice 5.9: Pyramide
 
 for n in range(10):
     print("{:^19s}".format("*" * ((2*n)+1)))
+
+# Exercice 5.11: Parcours de matrice
+
+N = 3
+
+print("ligne, colonne")
+for n in range(1, N+1):
+    for j in range(1, N+1):
+        print("{:>4d} {:>4d}".format(n, j))
+
+# To do, script with while #
+
+# Exercice 5.12 : Parcours de demi-matrice sans la diagonale
 
